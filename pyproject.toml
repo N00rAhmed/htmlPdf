@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "htmlPdf translator"
+version = "0.1.0"
+description = "translates html document to preffered languages"
+authors = ["William Jefferson Mensah mensahjefferson69@gmail.com"]
+
+[tool.poetry.dependencies]
+appdirs = "1.4.4"
+APScheduler = "3.9.1"
+arabic-reshaper = "3.0.0"
+argos-translate-files = "1.1.1"
+argostranslate = "1.8.0"
+asn1crypto = "1.5.1"
+async-timeout = "4.0.3"
+attrs = "23.1.0"
+Babel = "2.12.1"
+beautifulsoup4 = "4.9.3"
+Brotli = "1.0.9"
+build = "0.10.0"
+weasyprint = "59.0"
+webencodings = "0.5.1"
+Werkzeug = "2.2.2"
+wrapt = "1.15.0"
+xhtml2pdf = "0.2.11"
+zipp = "3.16.2"
+zopfli = "0.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
