@@ -1,4 +1,8 @@
 
+## Preview
+
+![Preview](./images/Screenshot%20from%202023-08-22%2020-57-44.png)
+
 <h1 align="center">HTML to PDF Translator</h1>
 
 <p align="center">
