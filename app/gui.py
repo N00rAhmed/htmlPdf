@@ -72,7 +72,7 @@ class TranslationGUI:
 
 # Instantiate and run the GUI
 if __name__ == "__main__":
-    base_url = 'http://192.168.43.147:5000'
+    base_url = 'http://localhost:5000'
     api = TranslationAPI(base_url)
     supported_languages = api.fetch_supported_languages()
 
