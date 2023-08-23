@@ -11,7 +11,6 @@ class TestMain(unittest.TestCase):
         run_translation_workflow("English", "French", mock_translator)
 
         mock_translator.translate_html.assert_called_once()
-        # Add more assertions to test the complete workflow
 
 if __name__ == "__main__":
     unittest.main()
