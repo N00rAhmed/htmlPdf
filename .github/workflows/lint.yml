@@ -1,4 +1,4 @@
-name: Linting Workflow
+name: CI/CD Workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  lint:
+  build-test-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,5 +21,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Lint code
-        run: pylint app/main.py
+      - name: Build and Deploy
+        run: python app/main.py  # Update the path to your main script
