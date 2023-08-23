@@ -3,6 +3,10 @@
 
 ![Preview](./images/Screenshot%20from%202023-08-22%2020-57-44.png)
 
+<div align="center">
+  <img src="./images/Screenshot%20from%202023-08-22%2020-57-44.png" alt="Preview">
+</div>
+
 <h1 align="center">HTML to PDF Translator</h1>
 
 <p align="center">
