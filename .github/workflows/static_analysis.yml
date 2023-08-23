@@ -33,4 +33,4 @@ jobs:
           mypy .
 
       - name: Build and Deploy
-        run: python main.py  # Modify this to your actual main script
+        run: python app/main.py  
