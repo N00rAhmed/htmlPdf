@@ -70,7 +70,7 @@ class TranslationGUI:
         translator.translate_html_to_pdf(source_lang, target_lang, output_file, input_html_file)
         print(f"Translated PDF saved to {output_file}")
 
-# Instantiate and run the GUI
+#gui
 if __name__ == "__main__":
     base_url = 'http://localhost:5000'
     api = TranslationAPI(base_url)
